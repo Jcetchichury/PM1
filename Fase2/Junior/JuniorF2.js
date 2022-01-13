@@ -41,7 +41,7 @@ function validaVitoriaf2 (maiorf2) {
         } else {
             document.write (`
                 <link rel="stylesheet" href="JonesS1.css">
-                <button onclick="window.location.href = 'C:/Users/jcetc/Documents/Alura/projeto/PM1/jogoDeLuta.html'">derrota</button>
+                <button onclick="window.location.href = 'C:/Users/jcetc/Documents/Alura/projeto/PM1/Index.html'">derrota</button>
             `)
             return false
         } 
@@ -56,7 +56,7 @@ function validaVitoriaf2 (maiorf2) {
         } else {
             document.write (`
                 <link rel="stylesheet" href="JonesS1.css">
-                <button onclick="window.location.href = 'C:/Users/jcetc/Documents/Alura/projeto/PM1/jogoDeLuta.html'">derrota</button>
+                <button onclick="window.location.href = 'C:/Users/jcetc/Documents/Alura/projeto/PM1/Index.html'">derrota</button>
             `)
             return false
         }
@@ -70,7 +70,7 @@ function validaVitoriaf2 (maiorf2) {
         } else {
             document.write (`
                 <link rel="stylesheet" href="JonesS1.css">
-                <button onclick="window.location.href = 'C:/Users/jcetc/Documents/Alura/projeto/PM1/jogoDeLuta.html'">derrota</button>
+                <button onclick="window.location.href = 'C:/Users/jcetc/Documents/Alura/projeto/PM1/Index.html'">derrota</button>
             `)
             return false
         }
