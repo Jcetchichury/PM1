@@ -1,0 +1,28 @@
+.play {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    height: 100px;
+}
+
+.bot {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: none;
+    color: white;
+}
+
+.Imagens {
+    width: 100px;
+}
+
+.body {
+    text-align: center;
+    background-image: url("https://www.oliberal.com/image/contentid/policy:1.344870:1610561288/D-Silva.jpg?f=2x1&$p$f=5d1840b&w=1500&$w=f075b93");
+    color: white;
+}
