@@ -8,6 +8,11 @@ var somaStatus = prompt (`
     Força, Agilidade, Resistencia \n
     Digite o que quer treinar 
 `)
+var vitoria = document.querySelector ("#Vitoria")
+var botoes = document.querySelector ("#botoes")
+var derrota = document.querySelector ("#derrota")
+var vitoriaDiv = document.querySelector("#vitoriaDiv")
+var derrotaDiv = document.querySelector("#derrotaDiv")
 function addStatus (somaStatus) {
     if (somaStatus == "Força") { 
         return Forca++
@@ -31,49 +36,40 @@ document.write (`
     Seus Status são
     <br>Força: ${Forca}, Agilidade: ${Agilidade}, Resistencia: ${Resistencia}</br>
 `)
-
+function deuBom () {
+    botoes.style.display = "none"
+    vitoriaDiv.style.display = "flex"
+    vitoria.addEventListener ("click",()=>{window.location.href = './../../Fase2/Anderson/AndersonF2.html'})
+}
+function deuRuim () {
+    botoes.style.display = "none"
+    derrotaDiv.style.display = "flex"
+    derrota.addEventListener ("click",()=>{window.location.href = './../../Index.html'})
+}
 function validaVitoria (maior) {
     if (maior == "Força") {
         if (Forca > forcaV1) {
-            document.write (`
-                <link rel="stylesheet" href="JonesS1.css">
-                <button onclick="window.location.href = 'C:/Users/jcetc/Documents/Alura/projeto/PM1/Fase2/Anderson/AndersonF2.html'" >Vitoria</button>
-            `)
+            deuBom ()
             return true
         } else {
-            document.write (`
-                <link rel="stylesheet" href="JonesS1.css">
-                <button onclick="window.location.href = 'C:/Users/jcetc/Documents/Alura/projeto/PM1/jogoDeLuta.html'">derrota</button>
-            `)
+            deuRuim ()
             return false
         } 
         
     } else if (maior == "Agilidade") {
         if (Agilidade > agilidadeV1) {
-            document.write (`
-                <link rel="stylesheet" href="JonesS1.css">
-                <button onclick="window.location.href = 'C:/Users/jcetc/Documents/Alura/projeto/PM1/Fase2/Anderson/AndersonF2.html'" >Vitoria</button>
-            `)
+            deuBom ()
             return true
         } else {
-            document.write (`
-                <link rel="stylesheet" href="JonesS1.css">
-                <button onclick="window.location.href = 'C:/Users/jcetc/Documents/Alura/projeto/PM1/jogoDeLuta.html'">derrota</button>
-            `)
+            deuRuim ()
             return false
         }
     } else if (maior == "Resistencia") {
         if (Resistencia > resistenciaV1) {
-            document.write (`
-                <link rel="stylesheet" href="JonesS1.css">
-                <button onclick="window.location.href = 'C:/Users/jcetc/Documents/Alura/projeto/PM1/Fase2/Anderson/AndersonF2.html'" >Vitoria</button>
-            `)
+            deuBom ()
             return true
         } else {
-            document.write (`
-                <link rel="stylesheet" href="JonesS1.css">
-                <button onclick="window.location.href = 'C:/Users/jcetc/Documents/Alura/projeto/PM1/jogoDeLuta.html'">derrota</button>
-            `)
+            deuRuim ()
             return false
         }
     }
