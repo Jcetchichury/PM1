@@ -35,13 +35,13 @@ function validaVitoriaf2 (maiorf2) {
         if (Forca > forcaV2) {
             document.write (`
                 <link rel="stylesheet" href="JonesS1.css">
-                <button onclick="window.location.href = 'C:/Users/jcetc/Documents/Alura/projeto/PM1/Chefão/Junior/Junior.html'">Vitoria</button>
+                <button onclick="window.location.href = './../../Chefão/Junior/Junior.html'">Vitoria</button>
             `)
             return true
         } else {
             document.write (`
                 <link rel="stylesheet" href="JonesS1.css">
-                <button onclick="window.location.href = 'C:/Users/jcetc/Documents/Alura/projeto/PM1/Index.html'">derrota</button>
+                <button onclick="window.location.href = './../../index.html'">derrota</button>
             `)
             return false
         } 
@@ -50,13 +50,13 @@ function validaVitoriaf2 (maiorf2) {
         if (Agilidade > agilidadeV2) {
             document.write (`
                 <link rel="stylesheet" href="JonesS1.css">
-                <button onclick="window.location.href = 'C:/Users/jcetc/Documents/Alura/projeto/PM1/Chefão/Junior/Junior.html'">Vitoria</button>
+                <button onclick="window.location.href = './../../Chefão/Junior/Junior.html'">Vitoria</button>
             `)
             return true
         } else {
             document.write (`
                 <link rel="stylesheet" href="JonesS1.css">
-                <button onclick="window.location.href = 'C:/Users/jcetc/Documents/Alura/projeto/PM1/Index.html'">derrota</button>
+                <button onclick="window.location.href = './../../index.html'">derrota</button>
             `)
             return false
         }
@@ -64,13 +64,13 @@ function validaVitoriaf2 (maiorf2) {
         if (Resistencia > resistenciaV2) {
             document.write (`
                 <link rel="stylesheet" href="JonesS1.css">
-                <button onclick="window.location.href = 'C:/Users/jcetc/Documents/Alura/projeto/PM1/Chefão/Junior/Junior.html'">Vitoria</button>
+                <button onclick="window.location.href = './../../Chefão/Junior/Junior.html'">Vitoria</button>
             `)
             return true
         } else {
             document.write (`
                 <link rel="stylesheet" href="JonesS1.css">
-                <button onclick="window.location.href = 'C:/Users/jcetc/Documents/Alura/projeto/PM1/Index.html'">derrota</button>
+                <button onclick="window.location.href = './../../index.html'">derrota</button>
             `)
             return false
         }
